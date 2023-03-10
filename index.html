@@ -16,10 +16,10 @@
 <link rel="stylesheet" href="./styles.css">
 <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-<title>personal porfolio</title>
+<title>FrankBush Portfolio</title>
 </head>
 <body>
-    <div class="main-container container bg-light">
+    <div class="main-container container bg-dark">
         <div class="landing-page">
             <div class="fixed container">
                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -31,16 +31,16 @@
                       <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
                           <li class="nav-item">
-                            <a class="nav-link" href="">About</a>
+                            <a class="nav-link" href="#about">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">What I do</a>
+                            <a class="nav-link" href="#works">Work</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contacts">Contact</a>
                           </li>
                         </ul>
                       </div>
@@ -65,22 +65,15 @@
         </div>
         
         <hr>
-        <section class="about-me border">
+        <section class="about-me" id="about">
             <div class="work-site-div">
                 <img src="./images/about-image.svg" alt="work-site" class="img-fluid work-site">
             </div>
             <div class="aboutme-info">
-                <h2 class="">About me</h2>
-                <p class="">I'm Franklin Bush</p>
+                <h2 class="text-primary">About me</h2>
+                <p class="text-light">I'm Franklin Bush</p>
                 <p class="info-of-me">An inquisitive Software developer, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. .</p>
-                <!-- <div class="contact-deatails">
-                    <h2>Contact Details</h2>
-                   <p>Franklin Kithaka</p>
-                   <p>Nairobi Kasarani</p>
-                   <p>+254728110299</p>
-                   <span>frankbush979@gmail.com</span>
-                </div> -->
-                <a href="">
+                <a href="#">
                     <div class="cv">
                         <p class="text-center">Download CV</p>
                     </div>
@@ -90,58 +83,58 @@
 
         <!-- skills -->
         <hr>
-        <section class="skills">
+        <section class="skills px-3">
             <div class="skill-left-div">
                 <div class="skill-aside">
-                    <h1>Skills</h1>
+                    <h1 class="text-light">Skills</h1>
                     <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.</p>
                 </div>
                 <div class="skills-imgs">
-                    <h1>My programming skills proficiency</h1>
+                    <h1 class="text-light mb-3">My programming skills proficiency</h1>
                     <div class="skill">
-                        <p>REACT Js</p>
+                        <p class="text-light">REACT Js</p>
                         <div class="bar react-bar">
                             <div class="prof-react"></div>
                             <div class="prof-react2"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <p>JAVASCRIPT</p>
+                        <p class="text-light">JAVASCRIPT</p>
                         <div class="bar html-bar">
                             <div class="prof-html"></div>
                             <div class="prof-html2"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <p>CSS 5</p>
+                        <p class="text-light">CSS 5</p>
                         <div class="bar css-bar">
                             <div class="prof-css"></div>
                             <div class="prof-css2"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <p>Bootstrap 5</p>
+                        <p class="text-light"> Bootstrap 5</p>
                         <div class="bar bootstrap-bar">
                             <div class="prof-bootstrap"></div>
                             <div class="prof-bootstrap2"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <p>J QUERY</p>
+                        <p class="text-light">J QUERY</p>
                         <div class="bar query-bar"> 
                             <div class="prof-query"></div>
                             <div class="prof-query2"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <p>Git</p>
+                        <p class="text-light">Git</p>
                         <div class="bar git-bar">
                             <div class="prof-git"></div>
                             <div class="prof-git2"></div>
                         </div>
                     </div>
                     <div class="skill">
-                        <p>Figma</p>
+                        <p class="text-light">Figma</p>
                         <div class="bar figma-bar">
                             <div class="prof-figma"></div>
                             <div class="prof-figma2"></div>
@@ -155,8 +148,8 @@
 
         <!-- projects -->
         <hr class="projects-hr">
-        <section class="projects">
-            <h1>Check some of my works</h1>
+        <section class="projects bg-dark p-5" id="works">
+            <h1 class="text-primary py-5">Check some of my works</h1>
                 <!-- Swiper -->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -202,14 +195,14 @@
         </section>
         <!-- Testimonials -->
         <hr id="testimonials-hr">
-        <section class="testimonials container">
-            <h1 class="bold">Clients Testimonials</h1>
+        <section class="testimonials container bg-dark p-3" id="testimonials">
+            <h1 class="bold text-primary py-3">Clients Testimonials</h1>
             <div class="client">
                 <img src="./images/IMG20210309151600_1.jpg" alt="" class="frank img-fluid text-center">
 
                 <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                    <p>Creativity and innovation in one.....I enjoy solving problems related to tech..<i class="fa-solid fa-quote-right"></i></p>
+                    <i class="fa-solid fa-quote-left text-light"></i>
+                    <p class="text-light">Creativity and innovation in one.....I enjoy solving problems related to tech..<i class="fa-solid fa-quote-right"></i></p>
                 </div>
             </div>
             <!-- <div class="splash-pics">
@@ -217,56 +210,56 @@
             </div> -->
         </section>
 
-       <section class="contacts container">
-        <h1 class="text-center">Get in Touch</h1>
-        <h3 class="text-center hi">Say Hi and get in touch with me</h3>
-
-            <div class="form-contacts">
-                <div class="form-status-div">
-                    <form action="https://formspree.io/f/xeqwklae" method="post" id="my-form">
-                        <div class="contacts-form">
-                            <div class="labels-part">
-                                <label for="" class="name-label">
-                                    <input type="text" name="name" class="input" placeholder="Your Name" required>
-                                </label>
-                                <label for="" class="email" >
-                                    <input type="email" class="input" placeholder="Your email" name="email" required>
-                                </label>
-                                <label for="" class="subject">
-                                    <input type="text" name="subject" class="input" placeholder="The Subject" required>
-                                </label>
-                                <label for="" class="text-mssge">
-                                    <textarea name="text-mssge" id="mssge" cols="30" rows="10" class="input"></textarea>
-                                </label>
-                                <button type="submit" class="btn send-btn" >Send message</button>
+       <div id="contacts">
+           <section class="contacts container bg-dark px-3">
+            <h1 class="text-center text-primary pt-5">Get in Touch</h1>
+            <h3 class="text-center hi text-light pb-5">Say Hi and get in touch with me</h3>
+                <div class="form-contacts">
+                    <div class="form-status-div">
+                        <form action="https://formspree.io/f/xeqwklae" method="post" id="my-form">
+                            <div class="contacts-form">
+                                <div class="labels-part">
+                                    <label for="" class="name-label">
+                                        <input type="text" name="name" class="input" placeholder="Your Name" required>
+                                    </label>
+                                    <label for="" class="email" >
+                                        <input type="email" class="input" placeholder="Your email" name="email" required>
+                                    </label>
+                                    <label for="" class="subject">
+                                        <input type="text" name="subject" class="input" placeholder="The Subject" required>
+                                    </label>
+                                    <label for="" class="text-mssge">
+                                        <textarea name="text-mssge" id="mssge" cols="30" rows="10" class="input"></textarea>
+                                    </label>
+                                    <button type="submit" class="btn send-btn" >Send message</button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
-                    <!-- <div id="status" class=""></div> -->
-                            
+                        </form>
+                        <div id="status" class="my-4"></div>
+           
+                    </div>
+                    <div class="my-contacts pb-5">
+                        <h1 class="text-light">Adddres and Phone</h1>
+                        <p class="text-light">Franklin KithaKa</p>
+                        <span class="text-light">frankbush979@gmail.com</span>
+                        <br>
+                        <p class="text-light">Nairobi</p>
+                        <p class="text-light">+254 728110299</p>
+                    </div>
                 </div>
-                <div class="my-contacts">
-                    <h1>Adddres and Phone</h1>
-                    <p>Franklin KithaKa</p>
-                    <span>frankbush979@gmail.com</span>
-                    <br>
-                    <p>Nairobi</p>
-                    <p>+254 728110299</p>
+           </section>
+           <footer class="container">
+            <div class="footer-div">
+                <div class="social-media-footer">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
+                <span>Made by kithaka Franklin | All reserved</span>
             </div>
-       </section>
-
-       <footer class="container">
-        <div class="footer-div">
-            <div class="social-media-footer">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <span>Made by kithaka Franklin | All reserved</span>
-        </div>
-       </footer>
-    </div>
+           </footer>
+               </div>
+       </div>
 
         <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
